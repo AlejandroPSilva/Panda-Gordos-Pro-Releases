@@ -24,13 +24,19 @@ O **Pandas Gordos PRO** é uma bancada de ferramentas para Minecraft. A proposta
 
 Explore seeds, biomas e estruturas em um mapa interativo. Navegue entre Overworld, Nether e The End, use coordenadas, filtros, waypoints e ferramentas de planejamento para conhecer melhor cada mundo.
 
+O mapa oferece navegação contínua, cache progressivo, perfis de desempenho e carregamento automático ao trocar de dimensão. O The End diferencia ilhas e void e destaca a arena central; no Nether, fortalezas, portais e variantes reais de bastiões recebem marcadores próprios, incluindo sala do tesouro, ponte, estábulos e unidades habitacionais.
+
 ### PandaSync
 
 Analise uma pasta de mods, identifique versões, loaders e dependências e acompanhe atualizações compatíveis. O fluxo foi pensado para deixar cada alteração clara antes de substituir um arquivo.
 
+Há suporte para Fabric, Forge, NeoForge e Quilt, comparação por versão do Minecraft, acompanhamento da pasta, vínculos manuais para projetos não reconhecidos, backups e restauração de atualizações.
+
 ### Panda AI
 
 Um assistente contextual para dúvidas, planejamento, comandos, construções e análise de informações do Minecraft. Cada usuário conecta sua própria chave compatível quando desejar utilizar o recurso.
+
+O assistente aceita conversas com streaming, imagens e arquivos de diagnóstico higienizados, possui modos especializados e prepara ações para outras ferramentas do aplicativo antes de qualquer alteração confirmada pelo usuário.
 
 ### Ferramentas da bancada
 
@@ -43,6 +49,16 @@ Um assistente contextual para dúvidas, planejamento, comandos, construções e 
 | **Waypoints** | Bases, portais, farms e outros locais importantes. |
 | **Servidores** | Consulta organizada de servidores Java e Bedrock. |
 
+## Experiência atual
+
+- interface responsiva com modo claro e escuro;
+- densidade e escala ajustáveis para diferentes telas;
+- navegação lateral fixa ou flutuante;
+- transições reduzidas quando o sistema solicita menos movimento;
+- integração opcional com Discord Rich Presence;
+- atualização do aplicativo preparada para publicações oficiais futuras;
+- armazenamento protegido para credenciais configuradas pelo usuário.
+
 ## Tecnologia
 
 O aplicativo combina uma interface moderna com recursos nativos de desktop:
@@ -50,7 +66,8 @@ O aplicativo combina uma interface moderna com recursos nativos de desktop:
 - **Tauri 2** e **Rust** para a aplicação desktop e operações locais;
 - **React 18** e **TypeScript** para a interface;
 - **Vite** para desenvolvimento e empacotamento;
-- **CSS responsivo** com temas claro e escuro;
+- **CSS responsivo** com identidade visual própria, temas claro e escuro;
+- **Cubiomes** integrado ao backend nativo para geração Java utilizada pelo PandaMap;
 - integração com serviços públicos utilizados pelas ferramentas, quando habilitados pelo usuário.
 
 ## Disponibilidade
