@@ -1,0 +1,11 @@
+{
+    "platforms":  {
+                      "windows-x86_64":  {
+                                             "signature":  "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRNFRvLzB2SmdEQlVDZko5cDZTNXlTcnV6WjJmdCtyMTgzTW10TmYvVDFQRzRYeUlEWHZCb2V4R051MDBSS3NEeHZvU0dRU0lSVi9VU3ovMkNyOFBFWUVsNlF2YlhjbWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjU4MDU4CWZpbGU6UGFuZGFzIEdvcmRvcyBQUk9fMS40LjNfeDY0X3B0LUJSLm1zaQpodVZSTWI3QnNIVjlEb2ZxcmNVWFdQOUFhNlZEdkthdlVaZlJRMGZ5RkZxVC9ZSDY4ZUhpWXV4QWpSclFDUk4vemJ4blJ4MWtkWVdFTWJwL2FNVmhEQT09Cg==",
+                                             "url":  "https://github.com/AlejandroPSilva/Panda-Gordos-Pro-Releases/releases/latest/download/Pandas%20Gordos%20PRO_1.4.3_x64_pt-BR.msi"
+                                         }
+                  },
+    "pub_date":  "2026-08-13T21:54:20.5715214Z",
+    "version":  "1.4.3",
+    "notes":  "Release 1.4.3 do Pandas Gordos PRO.\n\nNotas detalhadas podem ser informadas durante a publicaÃ§Ã£o do release."
+}
